@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class arraysssiee{
+public class arraysssi{
   public static void main(String[]args){
     Scanner sc = new Scanner(System.in);
     int n=sc.nextInt();
@@ -8,7 +8,9 @@ public class arraysssiee{
     arra1[j]=sc.nextInt();
     }
     for (int i=0;i<n;i++){
-      System.out.println(arra1[i]);
+      if (arra1[i]== n){
+      System.out.println(n);
     }
+   }
   }
 }
